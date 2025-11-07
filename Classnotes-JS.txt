@@ -1,0 +1,168 @@
+Javascript
+----------
+Script Programming Lang - web Interactivity
+
+Web Browser understand only HTML
+and runs JS code?
+
+Programming Languages
+------------------------
+OOP                    Functional PL    Scripting PL
+
+
+========================================
+
+Javascript
+----------
+Script Programming Lang - web Interactivity
+->JS is Light Weight PL
+->Js Loosely and Typed PL
+
+JS - ES6 (ECMA Script) script
+
+Java                 Python           JS
+
+JS - ES6 New Features
+----------------------
+let ,const
+class,
+${}  - string literal
+[] - new methods-> [].map(),
+                   [].foreach(),
+		   [].filter()
+		   [].find()
+		   [].reduce()
+...  - triple dot operators
+Destructuring(Object ,array)
+import/export
+Asynchronous Programing
+a)callback
+b)Promise
+c)async await
+
+===================================
+JS - scripting programming language for web interactivity.
+JS - Light weight P:
+
+Js - Identifier Rules
+-----------------------
+Identifer : name in Js Program
+
+1.Identifier - should contains only a-z A-Z 0-9 _, $
+2.Identifier should not starting with digits(0-9)
+3.Identifier - should not contains any special char/symbol
+4.Keyword or Reserved Word should not use as identifier
+5.Case sensitive
+
+SyntaxErrr
+
+
+JS Keyword: Every PL - some words are reserved specific purpose.
+-----------
+
+JS Data Type(8)
+
+Primitive DT
+----------
+number
+string
+boolean
+undefind
+
+symbol
+bigInt
+null
+
+Non Primitive
+--------------
+Object 
+
+Js Array - []
+Js Object - {}
+==================
+JS?
+How to execute Js file? Browser and node
+JS file contains?
+What is Identifer? And Identifer rules?
+------------------------------------------
+Data Types - CRUD?
+
+Primitive Data Type: Holding single value.
+
+number(integer, fractional values)
+string(str,char)
+boolean(true,false)
+undefined
+null
+bigInt
+symbol
+
+Non Primitive Type: Holding multiple values
+-------------------------------
+JS - Array   []
+or                   
+JS - Object  {}
+
+
+
+JS Array
+-----------
+->group of elments are one entity
+->allowed duplicates and allowed heterogenous elements
+->store based indexing
+->Array Iterable Object
+  a)for
+  b)while 
+  c)do-while
+  d)for - of 
+Creeate   Read  Update  Delete
+
+JS - Object
+------------
+-->group of key:value pairs as one enity.
+-->group of properties as one entity.
+-->duplicate keys are not allowed but values are allowed.
+-->indexing concept is not appliable
+-->Js Object is not iterable.
+   but we can iterate using -new loop
+   ie for( in ){}
+
+
+create-object
+let employee={
+    eid:101,
+    ename:"Rahul",
+    esal:45000,
+    esal:55000,
+    esal:65000,
+    esal:75000
+}
+console.log(employee)
+{ eid: 101, ename: 'Rahul', esal: 75000 }
+
+
+JS Array vs JS Object
+-------------------------
+[101,102,103,104]               - group of employee ids
+
+{ eid: 101, ename: 'Rahul', esal: 75000 }
+                                - group of key:value pairs
+
+==================================
+let a=10
+let b=20
+console.log(a+b)
+document.write(a+b)
+-------------------------------
+Arithmatic Operators  : +  -  *  / %  ,  **
+Logical Operators     : &&  ||
+Realational Operators : < <=  > >=
+Equality  Operators   : ==   ===(strict equality)
+Incr/Decre Operators  : ++  --
+Assignment Operators  : = , +=,-+
+Ternary Operators     : condition ?  true st : false st
+Bitwise Operators
+
++ - Operator
+-----------------------
+  +: Addition                   +:Concatination
