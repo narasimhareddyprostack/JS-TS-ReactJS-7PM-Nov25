@@ -166,3 +166,54 @@ Bitwise Operators
 + - Operator
 -----------------------
   +: Addition                   +:Concatination
+=================================================
+
+let a=100          number
+let b="200"        str
+
+console.log(a+b)   #100200
+console.log(a*b)   #20000
+
+JS - Loosely Typed and dynamic Typed PL.
+
+   +                                   *
+   --------------------------------------
+    
+Control Flow St- JS
+How to control program execution.
+
+case 1                           case 2
+
+
+JS ES6
+------
+ECMA  Script ?
+Europian Computer Manufacturing Association
+small consortum - providing standand to JS.
+
+ES 6 - New Features
+-------------------
+1.let const
+2.class
+3.()=>{}
+4.${}  --> String literal
+5.[] - new methods
+   [].foreach()
+   [].map()
+   [].find()
+   [].filter()
+   [].reduce()
+   [].flatmap()
+   [].findIndex()
+6. ...  -triple operators
+   a) spread 
+   b) rest op
+
+7.Destructuring (array vs object)
+8.import /export
+9.async programming using JS
+  a)call back
+  b)Promise
+  c)async and await
+10.Set class
+11.clouse, HOC vs HOF
