@@ -216,3 +216,36 @@ ES 6 - New Features
   b)Promise
   c)async and await
 10.Set class
+11.clouse, HOC vs HOF
+==============================
+print 7  table using for and while loop
+7*1=7
+7*2=14
+....
+7*1-=70
+
+---------------
+While Loop Syntax
+--------------------
+initilization st;
+while(conditional st){
+	st1;
+	st2
+
+	...
+	incr/decr st
+}
+===================
+JS Array
+-------
+-->group of elements are one enity 
+-->duplicates are allowed
+-->allowed heterogenous elements
+-->store based on indexing
+-->Array is a iterable object.
+-->we can iterate using
+   a)for loop
+   b)while loop
+   c)do-while loop
+   d)for-of 
+   e)[].methods
