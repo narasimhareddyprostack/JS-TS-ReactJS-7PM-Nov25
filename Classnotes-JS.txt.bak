@@ -249,3 +249,154 @@ JS Array
    c)do-while loop
    d)for-of 
    e)[].methods
+====================
+
+let employees=[{"eid":1,"ename":"Myrna","gender":"Female"},
+{"eid":2,"ename":"Bronson","gender":"Male"},
+{"eid":3,"ename":"Jerrie","gender":"Genderqueer"},
+{"eid":4,"ename":"Renata","gender":"Female"},
+{"eid":5,"ename":"Lawrence","gender":"Male"},
+{"eid":6,"ename":"Conrado","gender":"Male"},
+{"eid":7,"ename":"Orbadiah","gender":"Male"},
+{"eid":8,"ename":"Dan","gender":"Male"},
+{"eid":9,"ename":"Aleksandr","gender":"Male"},
+{"eid":10,"ename":"Hew","gender":"Male"},
+{"eid":11,"ename":"Bartram","gender":"Male"},
+{"eid":12,"ename":"Sybilla","gender":"Female"},
+{"eid":13,"ename":"Matelda","gender":"Non-binary"},
+{"eid":14,"ename":"Cullin","gender":"Bigender"},
+{"eid":15,"ename":"Gina","gender":"Female"},
+{"eid":16,"ename":"Marten","gender":"Male"},
+{"eid":17,"ename":"Bernelle","gender":"Female"},
+{"eid":18,"ename":"Pepi","gender":"Female"},
+{"eid":19,"ename":"Madison","gender":"Male"},
+{"eid":20,"ename":"Glynn","gender":"Male"},
+{"eid":21,"ename":"Josey","gender":"Female"},
+{"eid":22,"ename":"Meryl","gender":"Female"},
+{"eid":23,"ename":"Leela","gender":"Female"},
+{"eid":24,"ename":"Keen","gender":"Male"},
+{"eid":25,"ename":"Mycah","gender":"Male"},
+{"eid":26,"ename":"Caleb","gender":"Male"},
+{"eid":27,"ename":"Rafa","gender":"Female"},
+{"eid":28,"ename":"Rick","gender":"Agender"},
+{"eid":29,"ename":"Justinian","gender":"Bigender"},
+{"eid":30,"ename":"Marjory","gender":"Female"},
+{"eid":31,"ename":"Grenville","gender":"Male"},
+{"eid":32,"ename":"Miguela","gender":"Female"},
+{"eid":33,"ename":"Harwell","gender":"Male"},
+{"eid":34,"ename":"Jerrie","gender":"Female"},
+{"eid":35,"ename":"Petey","gender":"Male"},
+{"eid":36,"ename":"Harlin","gender":"Bigender"},
+{"eid":37,"ename":"Dukie","gender":"Male"},
+{"eid":38,"ename":"Bevvy","gender":"Female"},
+{"eid":39,"ename":"Samantha","gender":"Female"},
+{"eid":40,"ename":"Chrystel","gender":"Female"},
+{"eid":41,"ename":"Lilias","gender":"Female"},
+{"eid":42,"ename":"Rod","gender":"Male"},
+{"eid":43,"ename":"Nev","gender":"Male"},
+{"eid":44,"ename":"Madalyn","gender":"Female"},
+{"eid":45,"ename":"Wadsworth","gender":"Male"},
+{"eid":46,"ename":"Ulrich","gender":"Male"},
+{"eid":47,"ename":"Sinclair","gender":"Male"},
+{"eid":48,"ename":"Mack","gender":"Male"},
+{"eid":49,"ename":"Inez","gender":"Female"},
+{"eid":50,"ename":"Brandy","gender":"Genderfluid"},
+{"eid":51,"ename":"Henriette","gender":"Female"},
+{"eid":52,"ename":"Gillian","gender":"Female"},
+{"eid":53,"ename":"Coletta","gender":"Female"},
+{"eid":54,"ename":"Richard","gender":"Male"},
+{"eid":55,"ename":"Griffie","gender":"Male"},
+{"eid":56,"ename":"Jedidiah","gender":"Bigender"},
+{"eid":57,"ename":"Doyle","gender":"Bigender"},
+{"eid":58,"ename":"Matilde","gender":"Female"},
+{"eid":59,"ename":"Berkie","gender":"Male"},
+{"eid":60,"ename":"Lacy","gender":"Female"},
+{"eid":61,"ename":"Garwin","gender":"Male"},
+{"eid":62,"ename":"Andrej","gender":"Male"},
+{"eid":63,"ename":"Brant","gender":"Male"},
+{"eid":64,"ename":"Janis","gender":"Female"},
+{"eid":65,"ename":"Germaine","gender":"Male"},
+{"eid":66,"ename":"Chloette","gender":"Female"},
+{"eid":67,"ename":"Elysee","gender":"Female"},
+{"eid":68,"ename":"Jeremie","gender":"Male"},
+{"eid":69,"ename":"Eddy","gender":"Male"},
+{"eid":70,"ename":"Lennard","gender":"Male"},
+{"eid":71,"ename":"Alberik","gender":"Male"},
+{"eid":72,"ename":"Arabel","gender":"Female"},
+{"eid":73,"ename":"Alfonso","gender":"Male"},
+{"eid":74,"ename":"Siffre","gender":"Male"},
+{"eid":75,"ename":"Kelsy","gender":"Female"},
+{"eid":76,"ename":"Locke","gender":"Male"},
+{"eid":77,"ename":"Orazio","gender":"Male"},
+{"eid":78,"ename":"Merwin","gender":"Male"},
+{"eid":79,"ename":"Wendall","gender":"Male"},
+{"eid":80,"ename":"Anthea","gender":"Genderfluid"},
+{"eid":81,"ename":"Catherina","gender":"Female"},
+{"eid":82,"ename":"Teresita","gender":"Female"},
+{"eid":83,"ename":"Sharai","gender":"Female"},
+{"eid":84,"ename":"Jodie","gender":"Female"},
+{"eid":85,"ename":"Frazier","gender":"Male"},
+{"eid":86,"ename":"Annabella","gender":"Bigender"},
+{"eid":87,"ename":"Torie","gender":"Female"},
+{"eid":88,"ename":"Carmine","gender":"Male"},
+{"eid":89,"ename":"Slade","gender":"Male"},
+{"eid":90,"ename":"Mandel","gender":"Male"},
+{"eid":91,"ename":"Pammy","gender":"Genderqueer"},
+{"eid":92,"ename":"Rozalie","gender":"Polygender"},
+{"eid":93,"ename":"Callean","gender":"Male"},
+{"eid":94,"ename":"Maren","gender":"Female"},
+{"eid":95,"ename":"Myrilla","gender":"Female"},
+{"eid":96,"ename":"Marilin","gender":"Female"},
+{"eid":97,"ename":"Davie","gender":"Male"},
+{"eid":98,"ename":"Giulia","gender":"Female"},
+{"eid":99,"ename":"Barbey","gender":"Female"},
+{"eid":100,"ename":"Mariquilla","gender":"Female"}]
+
+WAP to print all employee names
+using
+a)for 
+b)while 
+c)do-while
+d)for-of 
+
+WAP to print no of male/female employees
+using
+a)for - of 
+b)while loop
+
+=========================================
+
+function login(){}
+
+
+class User{
+
+login(){
+}
+
+}
+
+function?
+-->group of statement for specific functionality
+-->function keyword
+-->code resualbitiy(create once invoke n no of time)
+-->function execute business login and return value
+
+login()
+logout()
+reg()
+forgetpwd()
+updateprofile()
+deleteprofile()
+
+
+function login(){
+	console.log("Login Success")
+}
+=================================
+group of st for specific funcitionality.
+and execute business logic
+return the value.
+=======================================
+Create button - webdoc
+and once click button - show one alert box-GM
