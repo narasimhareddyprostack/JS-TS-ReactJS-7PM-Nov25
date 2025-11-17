@@ -408,3 +408,29 @@ ondblclick
 onmouseover
 onmouseout
 onmousemove
+
+=========================
+write JS - script  to update p tag.
+
+with current Date & time.
+
+How to get tag ref?
+document.getElementById('tag_id')
+document.getElementByTagName('p')[0]
+document.getElementByClassName('.nav')
+document.querySelector('.nav')
+
+If you want update Document properites?
+document ref - document.
+DOM?
+Document Object Model?
+
+if user click/mouse over/mouse out/dobule click button>
+want update button color?
+want to update button name?
+
+If you want upate document tag properties?
+DOM?
+
+--------------------
+write script to display data in the form html table?
