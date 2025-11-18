@@ -434,3 +434,31 @@ DOM?
 
 --------------------
 write script to display data in the form html table?
+
+How to invoke Rest API in
+JS             Python             React JS
+fetch()        requests           Axios
+
+
+usage: fetch all users
+Rest API URL:https://jsonplaceholder.typicode.com/users
+Method Type:GET
+
+
+http://prostackacademy.com
+https://prostackacademy.com
+SSN
+==========================
+Task 1:https://dummyjson.com/products
+invole Rest API using fetch function
+
+display all products in HTML Table
+
+Product Id  Name  Price    Rating
+
+Task 2:https://dummyjson.com/products
+invole Rest API using fetch function
+
+display all beauty products in HTML Table
+
+Product Id  Name  Price    Rating

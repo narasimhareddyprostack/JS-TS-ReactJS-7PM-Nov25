@@ -434,3 +434,7 @@ DOM?
 
 --------------------
 write script to display data in the form html table?
+
+How to invoke Rest API in
+JS             Python             React JS
+fetch()        requests           Axios
