@@ -1,0 +1,13 @@
+let enames=["rahul","sonia","priyanka"]
+enames.push("Modi")
+console.log(enames)
+enames.pop() 
+console.log(enames)
+enames.shift()
+console.log(enames)
+enames.unshift("Rahul Gandhi") 
+console.log(enames)
+enames.reverse()
+console.log(enames)
+let index=enames.indexOf("sonia")
+console.log(index)

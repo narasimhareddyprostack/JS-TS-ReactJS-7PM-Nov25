@@ -462,3 +462,168 @@ invole Rest API using fetch function
 display all beauty products in HTML Table
 
 Product Id  Name  Price    Rating
+
+JS ES6
+------
+Asynchronus Programing
+a)callback
+b)Promise
+c)async await
+
+If any function/method return promise object
+we can use
+a)fetch().then().catch()
+b)async, await
+
+Function?
+------------
+group of statements for specific task.
+execute business logic and return some value.
+
+function display_product(){
+	st1;
+	st2;
+	st3;
+
+	return value
+
+}
+
+
+Fat Arrow Function/Arrow Function?
+----------------------------------
+Altrenative way to writing a functio.
+
+()=>{}
+
+JS  : Fat Arrow /  ()=>{}
+Java:  ()->{}          lambda expression
+Python: lambda arg:expression
+==========================================
+function add(){
+ console.log("Addition")
+}
+
+add()
+
+
+adv
+------
+1.shorter/consice code
+2.implicit return? function has only one return st,
+3.this - keyword return - {} /empty object
+4.Function hoisting conflicts are resolved.
+
+[1,2,3].map((element)=>{
+		return element+1
+	}
+	)
+
+implicity return
+-------------------
+[1,2,3].map(element=>elment+1)
+
+
+JS ES6 - New Features
+======================
+ECMA             Oracle corp     MS      PSF
+JS               Java            .Net    Python
+JS ES6 - New Features
+-----------------------
+1. let,const
+2. ()=>{}
+3. ${}   : reading variable in the form of string
+4. class 
+5. []/Array new methods
+   [].forEach(),[].map(),[].filter(),[].find(),[].reduce()
+6.  ...(tripple dot Operator)
+    ...(spread op)   ...(rest)
+7. import/export
+8. Destructuring
+   Array and Object 
+9. async & await 
+   Asynchronous programing using JS
+   a)callback
+   b)Promise
+   c)async & await
+
+10.Set
+11.closure
+
+var vs let(redeclaration not possible) 
+-----------
+
+var a=10;   global scope
+var b=20;
+
+
+let a=10;   block/function scope
+let a=20;
+
+Array
+-----
+-->group of elememts/items/objects as one entity.
+-->duplicate and heterogeneous elements allowed
+-->store based in indexing
+-->array is iterable object.
+
+
+let enames=["rahul","sonia","priyanka"]
+
+enames.push("Modi")  : append element end of array
+enames.pop()         : remove last element
+enames.shift()       : remove first element
+enames.unshift()     : add element begining of array
+enaeme.reverse()     :reverse array elements
+enames.index("sonia"):return index of specified elemnets
+enames.sort()        : Natural sorting order( A-Z or 0-9)
+
+ES6
+---
+let const
+${}
+class
+()=>{}
+[].forEach() vs [].map() vs [].find() vs [].filter()
+
+...(Trippe dot Operators) spread vs rest
+
+import and export
+Destructuring
+asynchrnous programming - JS
+a)callback
+b)Promise 
+c)async await
+
+Set
+clousur
+
+Spread and rest?
+
+spread 
+Applicable for [] and object.
+
+let numbers=[11,8,7,1055,232,31]
+create new array based on exesting array?
+
+let new_numbers=numbers;  //array alias
+
+---------------------------------------
+1.for loop
+2.while loop
+3.do while loop
+  
+4.for of loop  
+5.[].map() methods
+6.spread operator
+
+let numbers=[11,8,7,1055,232,31]
+//index       0 1 
+create new array based on exesting array?
+
+let num1=[]
+for(let i=0;i<=numbers.length-1;i++){
+	num1.push(numbers[i])
+}
+
+
